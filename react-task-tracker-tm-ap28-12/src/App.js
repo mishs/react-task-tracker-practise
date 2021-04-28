@@ -4,7 +4,7 @@ function App() {
   
   return (
     <div className="App">
-      <Header title='test'/>
+      <Header title='Task Tracker'/>
     </div>
   );
 }
