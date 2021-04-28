@@ -8,7 +8,7 @@ const Header = ({ title }) => {
         // style={headerStyling}
         <header className='header'>
             <h1>{title}</h1>
-            <Button text='Add1' color='red' />
+            <Button text='Add' color='red' clickProp={clickedBtn} />
             {/* <Button text='Add2' color='blue' />
             <Button text='Add1' color='green' /> */}
         </header>
