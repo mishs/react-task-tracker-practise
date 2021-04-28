@@ -19,6 +19,7 @@ Header.defaultProps = {
     title: 'Chris'
 }
 
+//CSS in JS
 // const headerStyling = {
 //     backgroundColor: 'red'
 //   }
