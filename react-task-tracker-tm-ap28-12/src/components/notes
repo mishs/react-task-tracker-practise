@@ -1,0 +1,6 @@
+actual value is put where the return is final
+so if I import a component, ie button, header- I put props where the component is 
+created; but the value of the prop, where it is imported for returning
+
+#2- uppercase function names
+-for easiness, put function to a component where it is imported?
