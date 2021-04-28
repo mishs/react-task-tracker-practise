@@ -4,8 +4,8 @@ import Button from './Button'
 
 // line 4 ({ title }) is equal to (props) then destructing on line 7 as {props.title}
 const Header = ({ title }) => {
-    const clickedBtn = () => {
-        console.log('clicked 3rd')
+    const clickedBtn = (e) => {
+        console.log(e)
     }
 
     return (
