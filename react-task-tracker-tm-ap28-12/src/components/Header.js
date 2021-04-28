@@ -20,7 +20,8 @@ const Header = ({ title }) => {
 }
 
 Header.propTypes = {
-    title: propTypes.string
+    title: propTypes.string,
+    clickProp: propTypes.func
 }
 
 Header.defaultProps = {
