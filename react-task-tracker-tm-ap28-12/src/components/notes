@@ -19,3 +19,10 @@ the components that use this context re-render.
 Source:
     React State Management Tutorial | Context Api | React Tutorial For Beginners
     https://www.youtube.com/watch?v=35lXWvCuM8o
+
+    ===
+    Lifting State into Global / App state. 
+    This becomes our app component state
+    Here it will be at the top level to enable using within other components, or will have to send it updatebefor using in in
+    other components. It gets messy 
+    If we were using ContextAPI or Redux, it would be in Context, not App where (I/We did put it)
