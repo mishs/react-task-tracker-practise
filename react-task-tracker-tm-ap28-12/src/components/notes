@@ -1,6 +1,21 @@
+Generic about components and passing props
 actual value is put where the return is final
 so if I import a component, ie button, header- I put props where the component is 
 created; but the value of the prop, where it is imported for returning
 
+Events
 #2- uppercase function names
 -for easiness, put function to a component where it is imported?
+
+#3 side effects
+https://dev.to/francodalessio/understanding-react-s-useeffect-hook-lbg
+The useEffect Hook
+Plain and simple, useEffect lets you perform side effects in function components.
+
+Qn 
+Good at just rendering out information to display, 
+Downside- to change something in context, all the components that use the context, when we update the code in our useContext, all
+the components that use this context re-render.
+Source:
+    React State Management Tutorial | Context Api | React Tutorial For Beginners
+    https://www.youtube.com/watch?v=35lXWvCuM8o
