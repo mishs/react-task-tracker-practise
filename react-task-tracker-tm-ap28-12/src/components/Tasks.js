@@ -1,29 +1,4 @@
-import { useState } from 'react'
- 
-const Tasks = () => {
-    const [tasksListed, setTask ] = useState([
-        {
-            id: 1,
-            chore: 'Doors Appointment Date',
-            date: '28 Feb 2020',
-            status: 'Done'
-        },
-        {
-            id: 2,
-            chore: 'Second Appointment Up',
-            date: '28 Feb 2020'
-        }, 
-        {
-            id: 3,
-            chore: 'Third Appointment',
-            date: '28 Feb 2020'
-        },   
-        {
-            id: 4,
-            chore: 'Fourth Appointment',
-            date: '28 Feb 2020'
-        }     
-    ])
+const Tasks = ({ tasksListedProp }) => {
     // NOTE-
     // setTask is when you want to change or update state;
     // but state is immutable, so you can't/shouldn't do tasks.push
@@ -35,7 +10,7 @@ const Tasks = () => {
     return (
         // ALWAYS REMEMBER, HERE RETURNS OBJECT, SO CURLY BRACKETS INSIDE
         <div>
-            {tasksListed.map(task => (
+            {tasksListedProp.map(task => (
                 // IN THIS CASE, NO NEED TO PASS ACTUAL VALUE WHERE TASK IS CALLED SINCE VALUE IS BEING RETRIEVED FROM THE ARRAY'S OBJECTS
                 <h1 key={task.id}>{task.chore}</h1>
             ))}
