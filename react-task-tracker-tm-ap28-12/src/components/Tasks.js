@@ -1,3 +1,5 @@
+import Task from "./Task"
+
 const Tasks = ({ tasksListedProp }) => {
     // NOTE-
     // setTask is when you want to change or update state;
@@ -12,7 +14,7 @@ const Tasks = ({ tasksListedProp }) => {
         <div>
             {tasksListedProp.map(task => (
                 // IN THIS CASE, NO NEED TO PASS ACTUAL VALUE WHERE TASK IS CALLED SINCE VALUE IS BEING RETRIEVED FROM THE ARRAY'S OBJECTS
-                <h1 key={task.id}>{task.chore}</h1>
+                <Task key={task.id} taskProp={task}/>
             ))}
         </div>
     )
