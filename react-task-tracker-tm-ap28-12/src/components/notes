@@ -26,3 +26,12 @@ Source:
     Here it will be at the top level to enable using within other components, or will have to send it updatebefor using in in
     other components. It gets messy 
     If we were using ContextAPI or Redux, it would be in Context, not App where (I/We did put it)
+
+    ===
+    here above, we moved component, it's final import in taskS, it turned it's prop to state-value which is being 
+    fetched from global state.
+    when we get in app, we just maintain propName from import and pass value as would display on screen as specified in destination file:
+    i.e- with Tasks component import in App
+    it maintained its prop name for varied details (tasksListedProp)
+    just as task component maintained taskProp prop from it's import own file
+    the value is what's fed from the importING destination file even to the very final App holding global state
