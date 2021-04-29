@@ -30,7 +30,7 @@ function App() {
   return (
     <div className="App">
       <Header title='Task Tracker'/>
-      <Tasks />
+      <Tasks tasksListedProp={tasksArrHereIsAlsoState}/>
     </div>
   );
 }
